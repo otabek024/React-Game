@@ -1,38 +1,68 @@
-.App {
+
+.center-wrapper{
+  text-align: left;
+  max-width: 450px;
+  margin: 10rem auto;
+  background-color:rgb(86, 99, 112);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.center-wrapper h2{
+  color:orange;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span{
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.action_button{
+  position: absolute;
+  top: 17.8rem;
+  left: 57rem;
+  background-color:orange;
+  color: #000;
+  font-size: 1rem;
+  padding: .4rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.miami{
+  background-color: orange;
+  color: #000;
 }
 
-.App-link {
-  color: #61dafb;
+.badge{
+  background-color: orange;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1{
+  position: absolute;
+  left: 36rem;
+  top: 18rem;
+  padding: .5rem 5rem;
 }
+
+.btn2{
+  position: absolute;
+  left: 51rem;
+  top: 18rem;
+  padding: .5rem 3rem;
+}
+
+.looser{
+  color:palegoldenrod;
+}
+
+
+
+
+
+
+
+
+
